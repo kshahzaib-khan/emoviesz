@@ -1,0 +1,48 @@
+
+/* .check_success_message{
+   display:none;
+     position:fixed; 
+    z-index:1981;
+    right:15px;
+    width:250px;
+    border:solid 2px #5CB85C;
+    border-radius: 2px;
+    background:#DFF0D8;
+    text-align:center;
+    top:6px;
+  }
+  .check_success_message span{
+    color:#3C763D;
+    margin-top:100px;
+  
+  }
+  
+  .check_success_message .fa-check{
+      font-size: 20px;
+      margin-left: -12px;
+      margin-right: 10px;
+  }
+  
+  .check_error_message{
+    display:none;
+    position:fixed;
+    z-index:1981;
+    right:15px;
+    width:250px;
+    border:solid 2px #842029;
+    border-radius: 2px;
+    background:#F8D7DA;
+    text-align:center;
+    top:6px;
+  }
+  .check_error_message span{
+    color:#842029;
+    margin-top:100px;
+  
+  }
+  
+  .check_error_message .fa-bomb{
+      font-size: 20px;
+      margin-left: -12px;
+      margin-right: 10px;
+  } */

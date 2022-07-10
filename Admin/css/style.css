@@ -1,0 +1,884 @@
+
+/* start Admin page setting */
+.modal_bg_color{
+  background-color: #1B998B!important;
+}
+.modal_bg_color .modal-title-text
+{
+  color: white !important;
+}
+.Admincontainer{
+  background-color:white;
+  margin-top:80px;
+  padding-bottom:25px;
+  border-radius: 3px;
+  border: 1px solid #53B4C4;
+  }
+  #table-data{
+    margin-top: 40px;
+  }
+  .set{
+  color: white;
+  font-size: 30px;
+  margin-top: -60px;
+  }
+  
+          
+  .movi{
+  color: white;
+  font-size: 25px;
+  margin-top: -50px;
+  margin-bottom: 13px;
+  }
+  
+  .soft{
+  color: white;
+  font-size: 20px;
+  margin-top: -50px;
+  margin-bottom: 13px;
+  }
+  
+  .adm3
+  i{
+  font-size: 71px;
+  margin-top:3px;
+  }
+  
+  .adm4
+  i{
+  font-size: 75px;
+  margin-top:3px;
+  margin-left:-3px;
+  }
+       
+   
+  .com{
+  color: white;
+  font-size: 15px;
+  }    
+         
+  .adminuser{
+  color: white;
+  }
+  /*  start of  icon size */
+  
+  .adm1
+  i{
+  font-size: 80px;
+  }
+  
+  .adm2
+  i{
+  font-size: 80px;
+  }
+        
+  .adm
+  i{
+  font-size: 80px;
+  }
+  /* End of icon size */
+          
+  .color1{
+  background-color: #62275D;
+  }
+  
+  .border1{
+  border:1px solid #62275D !important;
+  /*  box-shadow: 0 27px 55px 0 rgba(0, 0, 0, 0.3), 0 17px 17px 0 rgba(0, 0, 0, 0.15); */
+  box-shadow: 0 19px 38px rgba(0,0,0,0.10), 0 15px 12px rgba(0,0,0,0.22);
+  }
+  
+  .color2{
+  background-color: #DD1155;
+  box-shadow: 0 19px 38px rgba(0,0,0,0.10), 0 15px 12px rgba(0,0,0,0.22); 
+  }
+            
+  .border2{
+  border:1px solid #DD1155 !important;
+  box-shadow: 0 19px 38px rgba(0,0,0,0.10), 0 15px 12px rgba(0,0,0,0.22);
+  }
+  
+  .color3{
+  background-color: #A83731;
+  }
+            
+  .border3{
+  border:1px solid #A83731!important;
+  box-shadow: 0 19px 38px rgba(0,0,0,0.10), 0 15px 12px rgba(0,0,0,0.22);
+  }
+  
+  .color4{
+  background-color: #4E6B8A;
+  }
+            
+  .border4{
+  border:1px solid #4E6B8A !important;
+  box-shadow: 0 19px 38px rgba(0,0,0,0.10), 0 15px 12px rgba(0,0,0,0.22);
+  }
+         
+  /*   End Admin page setting */
+  
+  
+  /* Start Admin Upload data page */
+  
+  .Datauploadcontainer{
+  background-color: #1B998B!important;
+  padding: 5px 40px 40px 40px;
+  }
+  
+  .registation{
+  
+  font-size: 30px;
+  font-weight: 700;
+  font-family: Agency FB;
+  color: white;
+  }
+                    
+  .form-group label{
+  padding-left: 8px;
+  color: white;
+  font-size: 14px; 
+  }
+  
+  .borderround input,textarea{
+  border-radius: 14px;
+  border: solid 1px #282923;
+  }  
+  
+  .borderround textarea{
+  border-radius: 14px;
+  border: solid 1px #282923;
+  }  
+                
+  .inputstyle select {
+  border-radius: 14px;
+  border: solid 1px #282923;
+  }  
+  
+  .well h1{
+  font-size: 30px;
+  font-weight: 700;
+  font-family: Agency FB;
+  }
+  
+  .centrdivmov{
+  width: 50%;
+  margin: 0px auto!important;
+  right: -120px;
+  position: relative;
+  }
+  .centrdivmov,label{
+    text-align: center!important;
+  }
+  .centrdivsoft label{
+  color:white;
+  }
+  
+  
+  @media(max-width: 991px){
+  
+  .centrdivmov{
+  right: 0px!important;
+  }
+  }
+  @media(max-width: 991px){
+  .mgr{
+  margin-top:-95px!important;
+  } 
+  .centrdivsoft{
+  width: 50%;
+  margin: 0 auto!important;
+  position: relative; 
+  }
+  
+  .centrdivsoft,label{
+  text-align:center!important;
+    }
+  
+  .subbtnislm{
+  position: relative;  
+  }
+  
+  }
+  #adminform{
+    margin-bottom: -35px;
+  }
+
+  
+  /* Start of Alert message  */
+  /* .alert1{    
+    display: none;   
+    width:25%;
+    height:30px;
+    border-radius:9px;
+    border:solid 1px #98c983;
+    text-align:center;
+    background:#D4EDDA;
+    margin: 0px auto!important;
+    right: 0px;
+    position: relative;
+    }
+    .alert1 h6{
+      margin-top:5px!important;
+      color:#3C763D;
+    }
+  .alert3{
+    display: none;   
+    width:25%;
+    height:30px;
+    border-radius:9px;
+    border:solid 1px #98c983;
+    text-align:center;
+    background:#D4EDDA;
+  margin-top: -60px;
+     float:right;
+     margin-right: 60px;
+    }
+    .alert3 h6{
+      margin-top:5px!important;
+      color:#3C763D;
+    }
+    
+    
+    .alert2D{
+    display: none;    
+    width:25%;
+    height:30px;
+    border-radius:9px;
+    border:solid 1px #e38f97;
+    text-align:center;
+    background:#F8D7DA;
+    margin: 0px auto!important;
+    right: 0px;
+    position: relative;
+    }
+  .alert2D h6{
+    margin-top:5px!important;
+    color:#721C24;
+    }
+  .alert2D .close{
+  margin-right:3px!important; 
+  }
+    .alert3D{
+    position: absolute;
+    display: none;  
+    width:25%;
+    height:30px;
+    border-radius:9px;
+    border:solid 1px #e38f97;
+    text-align:center;
+    background:#F8D7DA;
+    margin-top: -60px;
+    float:right;
+    margin-right: 60px;
+   
+    } */
+  
+    
+/*     
+  @media(max-width: 718px){
+  .alert3,.alert3D{
+    width:52%;
+    margin-right: 20%!important;
+  } 
+  
+  }
+  
+   @media(max-width: 603px){
+  .alert1{
+  height:30px;
+  } 
+  
+  .alert2D{
+  height:40px;
+  } 
+  }
+     
+  @media(max-width: 604px){
+  .alert1{
+  height:40px;
+  } 
+  } 
+     
+  
+  @media(max-width: 587px){
+     
+  .alert1{
+  height:40px;
+  } 
+  }
+  @media(max-width: 536px){
+    .alert3,.alert3D{
+  width:60%;
+  margin-right: 20%!important;
+  } 
+  }
+     
+  @media(max-width: 504px){
+     
+  .alert2D{
+  height:40px;
+  } 
+  }
+  @media(max-width: 487px){
+     
+  .alert2D{
+  height:40px;
+  } 
+  }
+  
+  @media(max-width: 465px){
+    .alert3,.alert3D{
+  width:70%;
+  margin-right: 10%!important;
+  } 
+  }
+  
+   @media(max-width: 415px){
+  .alert3,.alert3D{
+  width:80%;
+  margin-right: 10%!important;
+  } 
+  }
+  @media(max-width: 377px){
+  .alert3,.alert3D{
+  height: 40px;
+  } 
+  }
+  @media(max-width: 366px){
+  .alert1{
+  height:55px;
+  }    
+  }
+  @media(max-width: 306px){
+  .alert3 h6{
+  font-size:10px;
+  } 
+  .alert3D h6{
+  font-size:10px;
+  } 
+  .alert3{
+  height: 30px;
+  }
+  .alert1 h6{
+  font-size:10px;
+  } 
+  .alert2D h6{
+  font-size:10px;
+  } 
+  .alert1{
+  height:40px;
+  } 
+  
+  }
+    
+  @media(max-width: 226px){
+  .alert1{
+   height:55px;
+  } 
+  } */
+  /* End of Alert message  */
+  
+  
+  @media(max-width: 767px){
+  .navmrg{
+    /* start of navbar collapse btn ul vertical problem this code solve in problem */
+  margin-left: -21px!important;
+  margin-right: -15px!important;
+  } 
+  }
+  
+  @media(max-width: 315px){
+  .centrdivsoft{
+  width: 100px;
+  } 
+  }
+  
+  @media(max-width:307px){
+  .centrdivsoft input{
+  font-size:10px;
+  }
+  }
+  
+  
+  @media(max-width: 307px){
+  form,label,.subg{
+  font-size: 10px!important;
+  }
+  
+  
+  .btnwth{
+  width: 80px!important;
+  }
+  }
+  @media(max-width:394px){
+  .admsldfnt{
+   font-size: 14px!important; 
+  }  
+  }
+  
+  @media(max-width:292px){
+  .admislmfontup{
+  font-size: 17px!important;
+  }
+        
+  }
+  
+  @media(max-width:300px){
+  .schosbtn{
+  margin-left:-13px!important;
+  }
+  }
+  
+  @media(max-width: 262px){
+  .admbtnlf{
+  left: -20px;
+  }
+  }
+  
+  @media(max-width:251px){
+  .btnsldfnt{
+  margin-left: -1px!important;
+  } 
+  }
+  
+  @media(max-width:299px){
+  .btnmfnt{
+   margin-left: -4px!important; 
+  } 
+  }
+  @media(max-width: 243px){
+  .admbtnrgt{
+  right: 7px;
+  }
+  
+  
+  }
+  
+  @media(max-width: 251px){
+  .admislmfont{
+  padding-left: 6px!important;
+  }
+   .subg{
+  padding-left: 5px;
+  } 
+  }
+  
+  @media(max-width: 250px){
+  .cfbblk{
+   padding-left: 30px!important;
+  } 
+  }
+  
+  @media(max-width: 254px){
+  .soft,.movi,.set{
+  font-size:14px;
+  }
+  }
+  /* End Admin Upload data page */
+  
+  /* Start of Admin slider seting */
+  .slider-control {
+  min-height: 41px;
+  background: #fff;
+  box-shadow: none !important;
+  border-color: #e3e3e3;
+  }
+      
+  .slider-form {
+  /* width: 350px; */
+  width:40%;
+  margin: 0 auto;
+  }
+  
+  .slider-form form {
+  color: #7a7a7a;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  font-size: 13px;
+  background: #33afa2;
+   padding: 30px; 
+  box-shadow: 0px 0px 6px #848484; 
+  position: relative;
+  margin-top: 50px; 
+  }
+  
+  .slider-form h2 {
+  font-size: 28px;
+  font-weight: 700;
+  font-family: Agency FB;
+  color: white;
+  margin-top: -20px!important;
+  }
+    
+    
+  .slider-form .btn {        
+  font-size: 16px;
+  font-weight: bold;
+  background: #5CB85C;
+  border: none;
+  margin-bottom: 20px;
+  border: solid 1px #282923;
+  }
+  
+  .slider-form .btn:hover, .slider-form .btn:focus {
+  background: #449D44;
+  /* outline: none !important; */
+  }    
+    
+    
+  
+  /* End of Admin slider seting */
+  
+  
+  /*  start login page */
+  
+  .inth {
+  min-height: 41px;
+  background: #fff;
+  box-shadow: none !important;
+  border-color: #e3e3e3;
+  }
+  
+  .form-control:focus {
+  border-color: #70c5c0;
+  }
+      
+  .form-control, .btn {        
+  border-radius: 2px;
+  }
+    
+  .login-form {
+  width: 350px;
+  margin: 0 auto;
+  padding: 100px 0 30px;    
+  }
+  
+  .login-form form {
+  color: #7a7a7a;
+  border-radius: 2px;
+  margin-bottom: 15px;
+  font-size: 13px;
+  background: #3b4652;
+  opacity: .95;
+  border-radius: 5px;
+  /*  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3); */
+  box-shadow: 0px 0px 6px #848484;
+  padding: 30px;  
+  position: relative; 
+  }
+  
+  .login-form h2 {
+  font-size: 22px;
+  margin: 35px 0 25px;
+  }
+  
+  .login-form .avatar {
+  position: absolute;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  top: -50px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  z-index: 9;
+  /*background: #70c5c0; */
+  padding: 15px;
+  /* box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1); */
+  }
+  
+  .login-form .avatar img {
+  width: 130%;
+  height: 130%;
+  border-radius: 5px;
+  margin-left: -10px;
+  box-shadow: 0px 0px 2px #848484;
+  } 
+      
+  .login-form input[type="checkbox"] {
+  margin-top: 2px;
+  }
+      
+  .inptroun input{
+  border-radius: 5px;
+  }
+   
+  .logbt{
+  background-color: #24BE9F;
+  color: white;
+  margin-top: 10px !important;
+  border-radius: 4px;
+  margin-left: 95px;
+  font-size: 20px !important;
+  padding: 7px 14px; 
+  border-bottom: 4px solid #219882 !important;
+  }
+  
+  .inpht i{
+  position: absolute;  
+  font-size: 25px;
+  color: #555e60;
+  left: 40px !important;
+  padding-top: 6px !important;
+  }
+  
+  
+  .login-form a {
+  color: #fff;
+  text-decoration: underline;
+  }
+    
+  .login-form a:hover {
+  text-decoration: none;
+  }
+    
+  .login-form form a {
+  color: #7a7a7a;
+  text-decoration: none;
+  }
+    
+  .login-form form a:hover {
+  text-decoration: underline;
+  }
+  
+  .logbt:hover{
+  background-color: #24BE9F !important;
+  }
+  
+  .inpht input{
+  border-radius: 5px;
+  border: 0px;
+  height: 43px;
+  font-size: 18px;
+  padding-left: 54px;
+  }
+  @media(max-width: 767px){
+  .login-form .avatar{
+  top: -64px!important;
+  }
+  }
+  @media(max-width: 369px){
+  .login-form{
+  width: 80%;
+  } 
+  
+  .logbt{
+  width: 80px;
+  } 
+  .fa-sign-in{
+  font-size: 16px!important;
+  }
+  .login-form button{
+  font-size: 16px!important;
+  margin-left: 30%!important;
+  }
+  }
+  @media(max-width: 256px){
+  .inth{
+  padding-left: 35px!important;
+  font-size: 13px !important;
+   } 
+  }
+  @media(max-width: 327px){
+  .clearfix,label{
+  font-size: 10px;
+  } 
+  }
+  
+  @media(max-width: 285px){
+  .login-form button{
+  margin-left: 20%!important; 
+  } 
+  }
+  
+  @media(max-width: 300px){
+    .checkbox-inline{
+    top:20px;
+    } 
+  .lftmrg{
+  margin-right:50px!important;
+  margin-top:-20px!important;
+  }
+  
+  .clearfix,label{
+  margin-left:10px!important;
+  } 
+  }
+  @media(max-width: 349px){
+    .checkbox-inline,.lftmrg{
+    font-size: 10px;
+    } 
+  }
+  
+  @media(max-width: 240px){
+    .lftmrg{
+    font-size: 9px!important;
+    } 
+  }
+  @media(max-width: 261px){
+  .lftmrg{
+  margin-right:30%!important;
+  }
+  }
+  
+  @media(max-width: 233px){
+  .lftmrg{
+  margin-right:17%!important;
+  }
+  }
+  @media(max-width: 229px){
+  .lftmrg{
+  margin-right:16%!important;
+  }
+  }
+  
+  
+  
+  /*  End login page */
+      
+  
+  
+  /*  footer start */
+  footer{
+  margin-top: 20px;
+  background: black; 
+  height: 90px;
+  line-height: 50px;
+  color: white;
+  letter-spacing: 1px;
+  }
+  
+  footer h5{
+  margin-top: 40px;
+  }
+  /*  footer end */
+  
+  
+  
+  /* Start of Admin  choose and sub button setting */
+  
+   @media(max-width: 991px){
+  .filebtn1{
+  padding-top:30px !important;
+  }
+  .subbtnislm{
+  padding-top:0px !important;
+  
+  }
+  }
+  
+  
+   @media(max-width: 348px){
+  .subbtn1{
+  padding-top:122px !important;
+  }
+  }
+  
+  @media(max-width: 333px){
+  .subbtn1{
+  padding-top:103px !important;
+  }
+  }
+  
+  @media(max-width: 358px){
+  .subbtn1{
+  padding-top:0px;
+  /* float:none; */
+  }
+  }
+  
+  @media(max-width: 991px){
+  .subbtn1{
+  margin-top: -84px !important;
+  }
+  .subbtn-islm{
+   margin-top: 30px !important; 
+  }
+  }
+  
+  /* End Admin  choose and sub button setting */
+  
+  /* Start of slider-form */
+  
+  @media(max-width: 629px){
+  .slider-form{
+   width: 70%; 
+  }
+  }
+  
+  @media(max-width: 985px){
+  .slider-form{
+   width: 70%; 
+  }
+  }
+  
+  @media(max-width: 907px){
+  .slider-form{
+   width: 70%; 
+  }
+  }
+  
+  @media(max-width: 991px){
+  .slider-form{
+   width: 70%; 
+  }
+  }
+  
+  @media(max-width: 459px){
+  .slider-form{
+   width: 85%; 
+  }
+  }
+  
+  @media(max-width: 391px){
+  .slider-form{
+   width: 100%; 
+  }
+  }
+  /* End of slider-form */
+  
+  
+  @media(max-width: 492px){
+  .Datauploadcontainer{
+    margin-top: 8px !important;
+  }
+  
+  }
+
+   /* Start of footer */
+
+ @media(max-width:410px){
+  .ftmrg h5{
+    font-size: 12px; 
+    }
+
+ }
+ @media(max-width: 393px){
+
+  .ftmrg h5{
+  font-size: 12px; 
+  }
+ }
+
+@media(max-width: 294px){
+  .ftmrg{
+    margin-top: -15px;
+
+  }
+ }
+
+ @media(max-width: 227px){
+  .ftmrg{
+    padding-top: 2px;
+  }
+
+  .ftmrg h5{
+    font-size: 10px; 
+    }
+ }
+  
+  
+  
+  
+  
